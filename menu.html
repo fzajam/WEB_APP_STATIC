@@ -1,0 +1,1244 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="static.css">
+    <script src="Script2.js"></script>
+    <title> menu</title>
+
+    <script>
+
+        $(document).ready(function () {
+            $("#1").click(function () {
+                $("#popul").show();
+                $("#s_int").hide();
+                $("#asi").hide();
+                $("#tur").hide();
+                $("#ital").hide();
+                $("#ent").hide();
+                $("#prin").hide();
+                $("#des").hide();
+                $("#ffo").hide();
+                $("#s_boi").hide();
+                $("#chau").hide();
+                $("#froi").hide();
+
+            });
+            $("#2").click(function () {
+                $("#s_int").show();
+                $("#popul").hide();
+                $("#asi").hide();
+                $("#tur").hide();
+                $("#ital").hide();
+                $("#ent").hide();
+                $("#prin").hide();
+                $("#des").hide();
+                $("#ffo").hide();
+                $("#s_boi").hide();
+                $("#chau").hide();
+                $("#froi").hide();
+
+            });
+            $("#as").click(function () {
+                $("#asi").show();
+                $("#popul").hide();
+                $("#s_int").hide();
+                $("#tur").hide();
+                $("#ital").hide();
+                $("#ent").hide();
+                $("#prin").hide();
+                $("#des").hide();
+                $("#ffo").hide();
+                $("#s_boi").hide();
+                $("#chau").hide();
+                $("#froi").hide();
+            });
+            $("#tu").click(function () {
+                $("#tur").show();
+                $("#asi").hide();
+                $("#ital").hide();
+                $("#popul").hide();
+                $("#s_int").hide();
+                $("#ent").hide();
+                $("#prin").hide();
+                $("#des").hide();
+                $("#ffo").hide();
+                $("#s_boi").hide();
+                $("#chau").hide();
+                $("#froi").hide();
+            });
+            $("#it").click(function () {
+                $("#ital").show();
+                $("#tur").hide();
+                $("#asi").hide();
+                $("#popul").hide();
+                $("#s_int").hide();
+                $("#ent").hide();
+                $("#prin").hide();
+                $("#des").hide();
+                $("#ffo").hide();
+                $("#s_boi").hide();
+                $("#chau").hide();
+                $("#froi").hide();
+            });
+
+            $("#3").click(function () {
+                $("#ent").show();
+                $("#popul").hide();
+                $("#s_int").hide();
+                $("#asi").hide();
+                $("#tur").hide();
+                $("#ital").hide();
+                $("#prin").hide();
+                $("#des").hide();
+                $("#ffo").hide();
+                $("#s_boi").hide();
+                $("#chau").hide();
+                $("#froi").hide();
+            });
+            $("#4").click(function () {
+                $("#prin").show();
+                $("#popul").hide();
+                $("#s_int").hide();
+                $("#asi").hide();
+                $("#tur").hide();
+                $("#ital").hide();
+                $("#des").hide();
+                $("#ffo").hide();
+                $("#s_boi").hide();
+                $("#chau").hide();
+                $("#froi").hide();
+            });
+            $("#5").click(function () {
+                $("#des").show();
+                $("#popul").hide();
+                $("#s_int").hide();
+                $("#asi").hide();
+                $("#tur").hide();
+                $("#ital").hide();
+                $("#ent").hide();
+                $("#prin").hide();
+                $("#ffo").hide();
+                $("#s_boi").hide();
+                $("#chau").hide();
+                $("#froi").hide();
+            });
+            $("#6").click(function () {
+                $("#ffo").show();
+                $("#popul").hide();
+                $("#s_int").hide();
+                $("#asi").hide();
+                $("#tur").hide();
+                $("#ital").hide();
+                $("#ent").hide();
+                $("#prin").hide();
+                $("#des").hide();
+                $("#s_boi").hide();
+                $("#chau").hide();
+                $("#froi").hide();
+
+            });
+            $("#7").click(function () {
+                $("#s_boi").show();
+                $("#popul").hide();
+                $("#s_int").hide();
+                $("#asi").hide();
+                $("#tur").hide();
+                $("#ital").hide();
+                $("#ent").hide();
+                $("#prin").hide();
+                $("#des").hide();
+                $("#ffo").hide();
+                $("#froi").hide();
+                $("#chau").hide();
+            });
+            $("#boi1").click(function () {
+                $("#chau").show();
+                $("#popul").hide();
+                $("#s_int").hide();
+                $("#asi").hide();
+                $("#tur").hide();
+                $("#ital").hide();
+                $("#ent").hide();
+                $("#prin").hide();
+                $("#des").hide();
+                $("#ffo").hide();
+                $("#s_boi").hide();
+                $("#froi").hide();
+            });
+
+            $("#boi2").click(function () {
+                $("#froi").show();
+                $("#popul").hide();
+                $("#s_int").hide();
+                $("#asi").hide();
+                $("#tur").hide();
+                $("#ital").hide();
+                $("#ent").hide();
+                $("#prin").hide();
+                $("#des").hide();
+                $("#ffo").hide();
+                $("#s_boi").hide();
+                $("#chau").hide();
+
+            });
+        });
+    </script>
+    
+</head>
+<body>
+    <div class="row navbar">
+            <div class="col homebutton">
+                <strong>
+                    <span class="text-white" style="margin-left: 10px">SUZLON</span>
+                </strong>
+                <span class="text-success">RESTRO</span>
+            </div>
+            <div class="col-5">
+                <form class="form-inline">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                    <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search item"
+                           aria-label="Search item">
+                </form>
+            </div>
+            <div class="col">
+              <button type="button" id="cart-button" class="btn cart-button">Items in Cart()</button>  
+            </div>
+        </div>
+    <div class="row content">
+        <div class="col-1 sidebar">
+            <center class="center">
+                <div class="row sidebar-item">
+                    <a class="btn" id="1">
+                        <i class="fas fa-star"></i>
+                        <span class="nav-link">Populaire</span>
+                    </a>
+                </div>
+                <div class="row sidebar-item">
+                    <a class="btn" id="2">
+                        <i class="fas fa-globe-europe"></i>
+                        <span class="nav-link">International</span><!--asiatique, hindi, italiano-->
+                    </a>
+                </div>
+                <div class="row sidebar-item">
+                    <a class="btn" id="3">
+
+                        <i class="fas fa-bacon"></i>
+                        <span class="nav-link">Entrées</span><!--salades, soupe, nuggets-->
+                    </a>
+                </div>
+                <div class="row sidebar-item">
+                    <a class="btn" id="4">
+
+                        <i class="fas fa-utensils"></i>
+                        <span class="nav-link">Principal</span>
+                    </a>
+                </div>
+                <div class="row sidebar-item">
+                    <a class="btn" id="5">
+
+                        <i class="fas fa-ice-cream"></i>
+                        <span class="nav-link">Dessert</span><!--patisserie , glace,-->
+                    </a>
+                </div>
+                <div class="row sidebar-item">
+                    <a class="btn" id="6">
+
+                        <i class="fas fa-hamburger"></i>
+                        <span class="nav-link">Fast-food</span> <!--sandwichs, tacos, panini-->
+                    </a>
+                </div>
+                <div class="row sidebar-item">
+                    <a class="btn" id="7">
+
+                        <i class="fas fa-glass-martini-alt"></i>
+                        <span class="nav-link">Boissons</span><!--chaudes, froides-->
+                    </a>
+                </div>
+            </center>
+        </div>
+
+        <!--populaire-->
+        <div class="col-11 itemsview" id="popul">
+            <div class="cards-container">
+                <div class="row">
+                    <div class="col-md-auto" align="center">
+                        <div class="card" id="produit">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\download.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Poulet roti</p>
+                                <p class="card-text">50.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card" id="produit">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\keb.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Kebab</p>
+                                <p class="card-text">70.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card" id="produit">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\shaw.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Shawarma</p>
+                                <p class="card-text">45.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-auto" align="center">
+                        <div class="card" id="produit">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\suchi.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Sushi</p>
+                                <p class="card-text">60.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card" id="produit">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\tarte.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Tarte aux fraises</p>
+                                <p class="card-text">30.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card" id="produit">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\mojito.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Mojito</p>
+                                <p class="card-text">35.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card" id="produit">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\piz.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Pizza 4 saisons</p>
+                                <p class="card-text">40.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card" id="produit">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\ham.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Hamburger</p>
+                                <p class="card-text"> 37.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card" id="produit">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\las.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Lasagne-bolognaise</p>
+                                <p class="card-text">35.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card" id="produit">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\ta.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">tacos poulet</p>
+                                <p class="card-text">25.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card" id="produit">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\pan.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Pancakes</p>
+                                <p class="card-text">35.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card" id="produit">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\sal.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Salade neçoise</p>
+                                <p class="card-text">35.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--internationale-->
+        <!--asiatic-->
+        <div class="container" id="s_int" style="display:none;">
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-success" id="as">asiatique</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-success" id="tu">turque</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-success" id="it">italien</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-11 itemsview" id="asi" style="display:none;">
+            <div class="cards-container">
+                <div class="row">
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\suchi.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">sushi</p>
+                                <p class="card-text">60.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\saum.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Saumon laqué </p>
+                                <p class="card-text">70.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\ram.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Ramen</p>
+                                <p class="card-text">50.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\roul.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Rouleaux de printemps</p>
+                                <p class="card-text">45.50 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\bo.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Bo bun vietnamien</p>
+                                <p class="card-text">55.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\mis.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Soupe miso</p>
+                                <p class="card-text">45.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\yak.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Yakisoba</p>
+                                <p class="card-text">40.00 MAD</p>
+                            </div>
+                        </div>
+                    </div><div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\pad.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Pad thaï</p>
+                                <p class="card-text"> 57.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--turc-->
+        <div class="col-11 itemsview" id="tur">
+            <div class="cards-container">
+                <div class="row">
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\bakl.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">baklava(3 pieces)</p>
+                                <p class="card-text">35.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\keb.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Kebab</p>
+                                <p class="card-text">70.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\goz.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Gozlem</p>
+                                <p class="card-text">50.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\lamb.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Lamb kibbeh</p>
+                                <p class="card-text">45.50 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\pir.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Pirojki(6 pieces)</p>
+                                <p class="card-text">55.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\balli.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Balli mahmudiye</p>
+                                <p class="card-text">45.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\alac.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title"> Alacati burek</p>
+                                <p class="card-text">40.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\bore.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Borek</p>
+                                <p class="card-text"> 57.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--italien-->
+        <div class="col-11 itemsview" id="ital">
+            <div class="cards-container">
+                <div class="row">
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\piz.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Pizza 4 saisons</p>
+                                <p class="card-text">40.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\las.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Lasagne-bolognaise</p>
+                                <p class="card-text">35.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\oss.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Osso Bucco</p>
+                                <p class="card-text">50.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\bur.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Burrata</p>
+                                <p class="card-text">45.50 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\esc.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Escalope milanaise</p>
+                                <p class="card-text">55.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\sb.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Saltimbocca</p>
+                                <p class="card-text">45.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\pot.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title"> Velouté alla Romana</p>
+                                <p class="card-text">30.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\tag.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">tagliatelle</p>
+                                <p class="card-text"> 57.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        
+        <!--entrees-->
+        <div class="col-11 itemsview" id="ent">
+            <div class="cards-container">
+                <div class="row">
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\s1.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Soupe 7 legumes</p>
+                                <p class="card-text">36.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\s2.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Soupe fruits de mer</p>
+                                <p class="card-text">47.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\s3.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Harira</p>
+                                <p class="card-text">25.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\sal.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Salade neçoise</p>
+                                <p class="card-text">35.50 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\ces.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Salade Cezar</p>
+                                <p class="card-text">30.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\nu.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Nuggets poulet(6 pieces)</p>
+                                <p class="card-text">35.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\sam.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Samoussas de dinde</p>
+                                <p class="card-text">40.00 MAD</p>
+                            </div>
+                        </div>
+                    </div><div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\aum.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Aumônière</p>
+                                <p class="card-text"> 57.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--principal-->
+        <div class="col-11 itemsview" id="prin">
+            <div class="cards-container">
+                <div class="row">
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\download.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Poulet roti</p>
+                                <p class="card-text">50.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\pae.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Paella</p>
+                                <p class="card-text">47.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\gra.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Gratin</p>
+                                <p class="card-text">55.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\cous.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Couscous</p>
+                                <p class="card-text">45.50 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\taj.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Tajine kefta</p>
+                                <p class="card-text">45.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\sta.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Steak vegetarien</p>
+                                <p class="card-text">45.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\rf.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Rfissa</p>
+                                <p class="card-text">40.00 MAD</p>
+                            </div>
+                        </div>
+                    </div><div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\past.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Pastilla poulet</p>
+                                <p class="card-text"> 47.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--dessert-->
+
+        <div class="col-11 itemsview" id="des">
+            <div class="cards-container">
+                <div class="row">
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\tarte.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Tarte aux fraises</p>
+                                <p class="card-text">30.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\pan.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Pancakes</p>
+                                <p class="card-text">35.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\cre.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Crepes nutella</p>
+                                <p class="card-text">21.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\mac.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Macarons fraises(6 pieces)</p>
+                                <p class="card-text">45.50 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\mnm.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Glace m&m's</p>
+                                <p class="card-text">30.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\ore.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Glace oreo</p>
+                                <p class="card-text">35.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\tir.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Tiramissu</p>
+                                <p class="card-text">20.00 MAD</p>
+                            </div>
+                        </div>
+                    </div><div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\cu.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Cupcakes(6 pieces)</p>
+                                <p class="card-text"> 67.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fast food-->
+        <div class="col-11 itemsview" id="ffo">
+            <div class="cards-container">
+                <div class="row">
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\shaw.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Shawarma</p>
+                                <p class="card-text">45.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\piz.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Pizza 4 saisons</p>
+                                <p class="card-text">40.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\ham.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Hamburger</p>
+                                <p class="card-text"> 37.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\hafi.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Burger poisson</p>
+                                <p class="card-text">35.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\san.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Sandwich dinde fummee</p>
+                                <p class="card-text">25.50 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\sanvi.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Sandwich viande hachée</p>
+                                <p class="card-text">30.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\ta.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">tacos poulet</p>
+                                <p class="card-text">25.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\tacvi.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Tacos viande hachée</p>
+                                <p class="card-text"> 25.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Boissons-->
+        <div class="container" id="s_boi" style="display:none;">
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-success" id="boi1">chaudes</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-success" id="boi2">froides</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-11 itemsview" id="chau" style="display:none;">
+            <!--chaudes-->
+            <div class="cards-container">
+                <div class="row">
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\cho.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Chocolat chaud</p>
+                                <p class="card-text">26.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\caf.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Café noir </p>
+                                <p class="card-text">20.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\th.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Thé</p>
+                                <p class="card-text">25.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\atol.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">L'atole mexicain parfumé</p>
+                                <p class="card-text">35.50 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="col-11 itemsview" id="froi">
+            <!--froides-->
+            <div class="cards-container">
+                <div class="row">
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\mojito.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Mojito</p>
+                                <p class="card-text">35.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\cola.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Coca cola </p>
+                                <p class="card-text">20.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\milk.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Milkshake fraise</p>
+                                <p class="card-text">35.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\mica.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Milkshake caramel</p>
+                                <p class="card-text">32.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\mich.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Milkshake chocolat</p>
+                                <p class="card-text">35.00 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\ju.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Jus d'orange</p>
+                                <p class="card-text">25.50 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\juba.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Jus de bananes </p>
+                                <p class="card-text">35.50 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto" align="center">
+                        <div class="card">
+                            <img class="card-img" src="C:\Users\Fz Ajam\Desktop\jufr.jpg" alt="Card image cap">
+                            <div class="card-img-overlay">
+                                <p class="card-title">Jus de fraises</p>
+                                <p class="card-text">33.50 MAD</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>    
+    
+    <template id="cart-item-template">
+        <div class="cart-item">
+            <div class="cart-item-img">
+                <img class="cart-item-img-src" src="#">
+            </div>
+            <div class="cart-item-desc">
+                <div class="cart-item-title">
+                    <h1 class="cart-item-title-txt"></h1>
+                </div>
+                <div class="cart-item-prefrence">
+                    <button id="btn-minus">-</button>
+                    <p class="item-counter"></p>
+                    <button id="btn-plus">+</button>
+                </div>
+                
+            </div>
+            <div class="cart-item-price">
+                <p class="item-price"></p> 
+            </div>
+        </div>
+    </template>
+    
+    <div class="in-cart-bar" id="cart-bar">
+        <div class="close-btn">
+            <button id="close-btn">Close</button>
+        </div>
+        
+        <div class="cart-items"></div>
+        
+        
+        
+        <div style="position: sticky;bottom: 70px; width: 100%; background-color: #26222C; height: 60px;cursor: pointer;display: flex; justify-content: center;">
+            <p id="items-total-price" style="margin: auto;color:white;font-weight: 600;">Total: 0 MAD</p>
+        </div>
+        
+        <div style="position: sticky;bottom: 0; width: 100%; background-color: #019847; height: 70px;cursor: pointer;display: flex; justify-content: center;">
+            <button id="finish-order" style="justify-content:space-around;background:transparent; color:white;font-weight: 600;border: none;outline: none;">Finish Ordering</button>
+        </div>
+    </div>
+        
+    
+
+</body>
+    
+    <script>
+        
+        var bucket = new Object();
+        bucket.items=[];
+     
+        function update(bucket){
+            var parent = document.getElementsByClassName("cart-items")[0];
+            parent.innerHTML = "";
+            var itemsCount=0;
+            var itemsTotal=0;
+            for(var i=0; i<bucket.items.length; i++){
+                itemsCount += bucket.items[i].count;
+                itemsTotal += bucket.items[i].price;
+                var t = document.querySelector('#cart-item-template');   
+                t.content.querySelector('.cart-item-title-txt').innerHTML = bucket.items[i].name;
+                t.content.querySelector('.cart-item-img-src').src = bucket.items[i].thumbnail;
+                t.content.querySelector('.item-counter').innerHTML = bucket.items[i].count; 
+                t.content.querySelector('.item-price').innerHTML = bucket.items[i].price + ".00 MAD";
+                var clone = document.importNode(t.content, true);
+                parent.appendChild(clone);
+            }
+            var itemsInCart = document.getElementById("cart-button");
+            itemsInCart.innerHTML = "Items in cart (" +itemsCount+ ")";
+            
+            var itemsTotalPrice = document.getElementById("items-total-price");
+            itemsTotalPrice.innerHTML = "Total: " + itemsTotal + " MAD";
+        }
+        
+        $(".card").on('click', function(event){
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+            
+            var attrs = event.currentTarget.innerText.split("\n");
+            attrs[1]=event.currentTarget.childNodes[1].currentSrc;
+            attrs[2] = attrs[2].match(/\d/g).join("")/100;       
+            
+            var found=0;
+            for(var i=0; i<bucket.items.length; i++){
+                if(bucket.items[i].name == attrs[0]){
+                    found=1;
+                    bucket.items[i].price += bucket.items[i].price/bucket.items[i].count;
+                    bucket.items[i].count++;
+                    break;
+                }
+            }
+             
+            
+          
+            if(!found){
+                var cctBukcket = new Object();
+                cctBukcket.name = attrs[0];
+                cctBukcket.thumbnail = attrs[1];
+                cctBukcket.price = attrs[2];
+                cctBukcket.count = 1; 
+                bucket.items[bucket.items.length] = cctBukcket;
+            }
+            
+            
+            update(bucket);
+                
+            
+        });
+        
+        
+        
+        var cartBtn = document.getElementById("cart-button");
+        var cartBar = document.getElementById("cart-bar");
+        var cartCls = document.getElementById("close-btn");
+        cartBtn.addEventListener("click", ()=> {
+            cartBtn.classList.toggle("active");
+            cartBar.classList.toggle("active");
+        });
+        cartCls.addEventListener("click", ()=> {
+            cartBtn.classList.toggle("active");
+            cartBar.classList.toggle("active");
+        });
+
+        
+        
+        $("#btn-plus").on('click', function(event){
+            console.log(event); 
+            console.log("ddd"); 
+        });
+        $("#btn-minus").on('click', function(event){
+            console.log(event); 
+            console.log("ddd"); 
+        });
+        
+        
+
+
+   </script>
+</html>
